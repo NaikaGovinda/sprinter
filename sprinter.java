@@ -7,5 +7,15 @@ public class sprinter {
         String name = sc.nextLine();
         System.out.println("Enter the name of your student");
 
+
+    }
+    public class Person{
+        String name;
+        int age;
+
+        public Person(String name, int age){
+            this.name = name;
+            this.age = age;
+        }
     }
 }
